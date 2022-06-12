@@ -1,31 +1,31 @@
 {
   "personalInfo": {
     "icon": "",
-    "name": "May Thu Htet",
+    "name": "メイトウテツ",
     "profilePicLink": "",
-    "profession": "UI/UX Designer"
+    "profession": "UI/UXデザイナー　+　ウェイブデベロッパー"
   },
   "contact": {
     "email": { "icon": "mdi-email", "value": "maythuhtet2892@gmail.com" },
     "address": {
       "icon": "mdi-map-marker",
-      "value": "Kunitachi, Tokyo, Japan"
+      "value": "東京都国立市"
     },
     "socialMedia": [
       {
         "icon": "mdi-linkedin",
         "color": "light-blue",
-        "value": "https://www.linkedin.com/"
+        "value": "https://www.linkedin.com/in/may-thu-htet-266b2954/"
       },
       {
-        "icon": "mdi-facebook",
+        "icon": "mdi-github",
         "color": "blue",
-        "value": "https://www.facebook.com/"
+        "value": "https://github.com/may-thu-htet"
       },
       {
         "icon": "mdi-instagram",
         "color": "red",
-        "value": "https://www.instagram.com/"
+        "value": "https://www.instagram.com/may_thu_htet/"
       }
     ]
   },
@@ -36,14 +36,14 @@
         "university": "mdi-office-building-marker",
         "year": "mdi-calendar-month"
       },
-      "level": "MSc in Naval Architecture",
-      "university": "Newcastle University, United Kingdom",
-      "year": "Sept 2015 - Oct 2017"
+      "level": "理学修士 (造船アーキテクチャ)終了",
+      "university": "イギリス、ニューカッスル大学",
+      "year": "2015年9月 - 2017年10月"
     }
   ],
   "languages": [
     {
-      "icon": "mdi-",
+      "icon": "fi fi-gr",
       "name": "ミャンマー語",
       "value": 100
     },
@@ -81,7 +81,7 @@
     },
     {
       "icon": "mdi-language-javascript",
-      "name": "Javascript",
+      "name": "JavaScript",
       "value": 75
     },
     {
@@ -95,14 +95,129 @@
       "value": 25
     },
     {
+      "icon": "mdi-alpha-f-circle-outline",
+      "name": "Illustrator",
+      "value": 25
+    },
+    {
       "icon": "mdi-account-tie-voice",
-      "name": "Communication",
+      "name": "コミュニケーション",
       "value": 50
     },
     {
       "icon": "mdi-alpha-l-circle-outline",
-      "name": "Leadership",
+      "name": "リーダーシップ",
       "value": 25
+    }
+  ],
+  "motivation": {
+    "descriptions": {
+      "value": "JavaScriptとVue.jsの知識を持つ情熱的なエンジニア。 実績のあるスキルと創造性を使用して、ビジネスプラン、顧客のニーズと要望を満たす機会を求めています。大 変多忙 時期以外 残 業枠を 少 な め で作業を 効 率 的 に 終 われる よ う 日 々頑張っ ております 。また、前の仕事でお客様のニーズが満たされるまでデザインを変更しなければならなかったので、試行錯誤しながら作業できると思います。 数学 と英語 が得 意です。"
+    }
+  },
+  "hobbies": [
+    {
+      "icon": "fa:fas fa-palette fa-beat",
+      "style": "--fa-animation-duration: 3s;--fa-animation-iteration-count: 3;",
+      "color": "blue",
+      "size": "40px",
+      "description": "アート、絵画、図面"
+    },
+    {
+      "icon": "fa:fas fa-person-walking-luggage fa-flip",
+      "style": "--fa-animation-duration: 3s;--fa-animation-iteration-count: 3;",
+      "color": "blue",
+      "size": "50px",
+      "description": "旅行"
+    },
+    {
+      "icon": "fa:fas fa-person-walking fa-flip",
+      "style": "--fa-animation-duration: 3s;--fa-animation-iteration-count: 3;",
+      "color": "blue",
+      "size": "50px",
+      "description": "ジョギング"
+    },
+    {
+      "icon": "fa:fas fa-music fa-flip",
+      "style": "--fa-animation-duration: 3s;--fa-animation-iteration-count: 3;",
+      "color": "blue",
+      "size": "40px",
+      "description": "音楽"
+    }
+  ],
+  "projects": [
+    {
+      "icon": "mdi-language-css3",
+      "color": "orange",
+      "name": "CSS Project",
+      "description": "Coming soon...",
+      "link": "https://www.google.com"
+    },
+    {
+      "icon": "mdi-vuejs",
+      "color": "green",
+      "name": "Vue App",
+      "description": "Coming soon ...",
+      "link": "https://www.figma.com"
+    },
+    {
+      "icon": "procreate",
+      "color": "green",
+      "name": "Procreate App",
+      "description": "Coming soon ...",
+      "link": "https://www.procreate.com"
+    },
+    {
+      "icon": "figma",
+      "color": "green",
+      "name": "Figma App",
+      "description": "Coming soon ...",
+      "link": "https://www.figma.com"
+    },
+    {
+      "icon": "fa:fas fa-image",
+      "color": "teal-darken-1",
+      "name": "Gallery",
+      "description": "Coming soon ...",
+      "link": "https://www.figma.com"
+    }
+  ],
+
+  "certificates": [
+    {
+      "icon": "mdi-certificate",
+      "name": "基本ユーザーエクスペリエンスUXデザイン",
+      "description": "エントリーレベルのUXデザイナーや一緒に仕事をする可能性のある他のチームの一般的な職務を特定します。 ユーザー中心設計、設計プロセス、アクセシビリティ、公平性重視の設計など、UX設計の基本的な概念を理解します。 デザインスプリントがUXデザイナーの仕事の重要で有用な部分である理由を説明します。",
+      "imgSrc": "",
+      "link": "https://www.coursera.org/account/accomplishments/certificate/PAP8TZ5UPFB3"
+    },
+    {
+      "icon": "mdi-certificate",
+      "name": "グーグルクラウドでAI/MLを使用したデジタルトランスフォーメーション",
+      "description": "この一連のコースは、企業がデータ、機械学習（ML）、人工知能（AI）を使用してビジネスモデルを変革する方法の基礎を築くための基本的なGoogleCloudの概念を紹介することから始まります。 この専門分野は、クラウド、特にデータにAIとMLを使用することで、ビジネスにチャンスが生まれ、変化が必要になることに関心のある人を対象としています。 ML、プログラミング、またはクラウドテクノロジーの経験は必要ありません。 コースには、実践的な技術トレーニングは含まれていません。",
+      "imgSrc": "",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/FB4CFS7J3JAC"
+    },
+    {
+      "icon": "mdi-certificate",
+      "name": "プロクリエートを使用したiPadでの描画とペイント",
+      "description": "スケッチ、絵画、イラストレーション",
+      "imgSrc": "",
+      "link": "https://www.udemy.com/certificate/UC-571c89c9-9c8f-493e-be58-bb745462c6ed/"
+    },
+    {
+      "icon": "mdi-certificate",
+      "name": "グーグルプロジェクトマネージメント",
+      "description": "Googleプロジェクト管理証明書を取得した人は、Googleが開発した6つのコースを修了しました。このコースには、実践的な実践ベースの評価が含まれ、プロジェクト管理の入門レベルの役割に備えるように設計されています。 彼らは、従来のプロジェクトとアジャイルプロジェクトの両方を開始、計画、実行する能力があります。",
+      "imgSrc": "",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/EYTLW3M477MR"
+    },
+    {
+      "icon": "mdi-certificate",
+      "name": "2022年の完全なWebおよびモバイルデザイナー：UI / UX、Figma、その他 ",
+      "description": "Figmaを使用したワイヤーフレームとプロトタイプによる設計プロセス、HTML、CSS、JavaScriptを使用したWebサイトの作成",
+      "imgSrc": "",
+      "link": "https://www.udemy.com/certificate/UC-acc54eb7-4348-4da6-bda0-a62bf7bbd0fd/"
     }
   ]
 }

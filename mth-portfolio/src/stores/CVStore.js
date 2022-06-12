@@ -36,11 +36,11 @@ export const useCVStore = defineStore({
           certificates: { title: "certificates", value: state.en.certificates },
         },
         jp: {
-          motivation: { title: "motivation", value: state.jp.motivation },
-          projects: { title: "projects", value: state.jp.projects },
-          hobbies: { title: "hobbies/interests", value: state.jp.hobbies },
-          experiences: { title: "experiences", value: state.jp.experiences },
-          certificates: { title: "certificates", value: state.jp.certificates },
+          motivation: { title: "モチベーション", value: state.jp.motivation },
+          projects: { title: "プロジェクト", value: state.jp.projects },
+          hobbies: { title: "趣味/興味", value: state.jp.hobbies },
+          experiences: { title: "経験", value: state.jp.experiences },
+          certificates: { title: "資格", value: state.jp.certificates },
         },
       };
     },

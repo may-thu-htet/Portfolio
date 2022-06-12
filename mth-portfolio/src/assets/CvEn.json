@@ -15,17 +15,17 @@
       {
         "icon": "mdi-linkedin",
         "color": "light-blue",
-        "value": "https://www.linkedin.com/"
+        "value": "https://www.linkedin.com/in/may-thu-htet-266b2954/"
       },
       {
-        "icon": "mdi-facebook",
+        "icon": "mdi-github",
         "color": "blue",
-        "value": "https://www.facebook.com/"
+        "value": "https://github.com/may-thu-htet"
       },
       {
         "icon": "mdi-instagram",
         "color": "red",
-        "value": "https://www.instagram.com/"
+        "value": "https://www.instagram.com/may_thu_htet/"
       }
     ]
   },
@@ -95,6 +95,11 @@
       "value": 25
     },
     {
+      "icon": "mdi-alpha-f-circle-outline",
+      "name": "Illustrator",
+      "value": 25
+    },
+    {
       "icon": "mdi-account-tie-voice",
       "name": "Communication",
       "value": 50
@@ -107,7 +112,7 @@
   ],
   "motivation": {
     "descriptions": {
-      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus in hac habitasse platea. Odio ut sem nulla pharetra diam sit amet. Pellentesque elit eget gravida cum sociis natoque. Feugiat sed lectus vestibulum mattis ullamcorper velit. Varius duis at consectetur lorem donec. Elementum eu facilisis sed odio morbi quis commodo. Varius sit amet mattis vulputate enim nulla. Nunc sed blandit libero volutpat sed cras ornare. At tempor commodo ullamcorper a lacus vestibulum sed. Ac ut consequat semper viverra nam libero justo. Malesuada proin libero nunc consequat. Augue neque gravida in fermentum et. Cras tincidunt lobortis feugiat vivamus at augue eget. Dolor morbi non arcu risus quis."
+      "value": "A passionate Engineer with the knowledge of JavaScript and Vue.js. Seeking opportunities to use proven skills and creativity to meet business plans, customers’ needs and wants. Looking forward to do the best every day so that each project is finished with a small amount of overtime work except during the busy season. And since there were a lot of design changes which had been made in order to meet the needs of customer at the previous workplace , so working capability through trial and error process is high. Good at math and English."
     }
   },
   "hobbies": [
@@ -115,29 +120,38 @@
       "icon": "fa:fas fa-palette fa-beat",
       "style": "--fa-animation-duration: 3s;--fa-animation-iteration-count: 3;",
       "color": "blue",
-      "size": "100px",
-      "description": "Painting"
+      "size": "40px",
+      "description": "Art, Painting & Drawing"
     },
     {
       "icon": "fa:fas fa-person-walking-luggage fa-flip",
       "style": "--fa-animation-duration: 3s;--fa-animation-iteration-count: 3;",
       "color": "blue",
-      "size": "100px",
+      "size": "50px",
       "description": "Travelling"
     },
+
     {
-      "icon": "mdi-alpha-l-circle-outline",
+      "icon": "fa:fas fa-person-walking fa-flip",
+      "style": "--fa-animation-duration: 3s;--fa-animation-iteration-count: 3;",
       "color": "blue",
-      "size": "100px",
-      "description": "Learning"
+      "size": "50px",
+      "description": "Jogging"
+    },
+    {
+      "icon": "fa:fas fa-music fa-flip",
+      "style": "--fa-animation-duration: 3s;--fa-animation-iteration-count: 3;",
+      "color": "blue",
+      "size": "40px",
+      "description": "Music"
     }
   ],
   "projects": [
     {
-      "icon": "mdi-vuejs",
-      "color": "green",
-      "name": "Leadership",
-      "description": "My greate Project Sample",
+      "icon": "mdi-language-css3",
+      "color": "orange",
+      "name": "CSS Project",
+      "description": "Coming soon ...",
       "link": "https://www.google.com"
     },
     {
@@ -146,22 +160,65 @@
       "name": "Vue App",
       "description": "Coming Soon ...",
       "link": "https://www.figma.com"
-    }
-  ],
-  "certificates": [
-    {
-      "icon": "mdi-alpha-l-circle-outline",
-      "name": "Foundation of UI/UX with Google",
-      "description": "UI/UI basics",
-      "imgSrc": "",
-      "link": "https://www.google.com"
     },
     {
-      "icon": "mdi-alpha-l-circle-outline",
-      "name": "Business Transformation with Google Cloud",
-      "description": "DX",
+      "icon": "procreate",
+      "color": "green",
+      "name": "Procreate App",
+      "description": "Coming soon ...",
+      "link": "https://www.procreate.com"
+    },
+    {
+      "icon": "figma",
+      "color": "green",
+      "name": "Figma App",
+      "description": "Coming soon ...",
+      "link": "https://www.figma.com"
+    },
+    {
+      "icon": "fa:fas fa-image",
+      "color": "teal-darken-1",
+      "name": "Gallery",
+      "description": "Coming soon ...",
+      "link": "https://www.figma.com"
+    }
+  ],
+
+  "certificates": [
+    {
+      "icon": "mdi-certificate",
+      "name": "Foundations of User Experience (UX) Design",
+      "description": "Identify common job responsibilities of entry-level UX designers and other teams you might work with. Understand foundational concepts in UX design, such as user-centered design, the design process, accessibility, and equity-focused design. Explain why design sprints are an important and useful part of a UX designer’s work. ",
       "imgSrc": "",
-      "link": "https://www.google.com"
+      "link": "https://www.coursera.org/account/accomplishments/verify/PAP8TZ5UPFB3"
+    },
+    {
+      "icon": "mdi-certificate",
+      "name": "Digital Transformation Digital Transformation Using AI/ML with Google Cloud Specialization",
+      "description": "This series of courses begins by introducing fundamental Google Cloud concepts to lay the foundation for how businesses use data, machine learning (ML), and artificial intelligence (AI) to transform their business models. The specialization is intended for anyone interested in how the use of AI and ML for the cloud, and especially for data, creates opportunities and requires change for businesses. No previous experience with ML, programming, or cloud technologies is required. The courses do not include any hands-on technical training.",
+      "imgSrc": "",
+      "link": "https://www.coursera.org/account/accomplishments/specialization/FB4CFS7J3JAC"
+    },
+    {
+      "icon": "mdi-certificate",
+      "name": "Drawing and Painting on the iPad with Procreate",
+      "description": "Sketching, Painting and Illustration",
+      "imgSrc": "",
+      "link": "https://www.udemy.com/certificate/UC-571c89c9-9c8f-493e-be58-bb745462c6ed/"
+    },
+    {
+      "icon": "mdi-certificate",
+      "name": "Google Project Management: Specialization",
+      "description": "Those who earn the Google Project Management Certificate have completed six courses, developed by Google, that include hands-on, practice-based assessments and are designed to prepare them for introductory-level roles in Project Management. They are competent in initiating, planning and running both traditional and agile projects.",
+      "imgSrc": "",
+      "link": "https://www.coursera.org/account/accomplishments/professional-cert/EYTLW3M477MR"
+    },
+    {
+      "icon": "mdi-certificate",
+      "name": "Complete Web & Mobile Designer in 2022: UI/UX, Figma, +more ",
+      "description": "Design process by Wireframes and prototypes using Figma, creating web site using HTML, CSS, Javascript",
+      "imgSrc": "",
+      "link": "https://www.udemy.com/certificate/UC-acc54eb7-4348-4da6-bda0-a62bf7bbd0fd/"
     }
   ]
 }
