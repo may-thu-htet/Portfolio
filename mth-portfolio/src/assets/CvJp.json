@@ -1,0 +1,108 @@
+{
+  "personalInfo": {
+    "icon": "",
+    "name": "May Thu Htet",
+    "profilePicLink": "",
+    "profession": "UI/UX Designer"
+  },
+  "contact": {
+    "email": { "icon": "mdi-email", "value": "maythuhtet2892@gmail.com" },
+    "address": {
+      "icon": "mdi-map-marker",
+      "value": "Kunitachi, Tokyo, Japan"
+    },
+    "socialMedia": [
+      {
+        "icon": "mdi-linkedin",
+        "color": "light-blue",
+        "value": "https://www.linkedin.com/"
+      },
+      {
+        "icon": "mdi-facebook",
+        "color": "blue",
+        "value": "https://www.facebook.com/"
+      },
+      {
+        "icon": "mdi-instagram",
+        "color": "red",
+        "value": "https://www.instagram.com/"
+      }
+    ]
+  },
+  "educations": [
+    {
+      "icon": {
+        "level": "mdi-book-education",
+        "university": "mdi-office-building-marker",
+        "year": "mdi-calendar-month"
+      },
+      "level": "MSc in Naval Architecture",
+      "university": "Newcastle University, United Kingdom",
+      "year": "Sept 2015 - Oct 2017"
+    }
+  ],
+  "languages": [
+    {
+      "icon": "mdi-",
+      "name": "ミャンマー語",
+      "value": 100
+    },
+    {
+      "icon": "mdi-",
+      "name": "英語",
+      "value": 75
+    },
+    {
+      "icon": "mdi-ideogram-cjk",
+      "name": "日本語",
+      "value": 75
+    }
+  ],
+  "skills": [
+    {
+      "icon": "mdi-vuejs",
+      "name": "VueJS",
+      "value": 75
+    },
+    {
+      "icon": "mdi-vuetify",
+      "name": "Vuetify",
+      "value": 75
+    },
+    {
+      "icon": "mdi-language-html5",
+      "name": "HTML",
+      "value": 50
+    },
+    {
+      "icon": "mdi-language-css3",
+      "name": "CSS",
+      "value": 50
+    },
+    {
+      "icon": "mdi-language-javascript",
+      "name": "Javascript",
+      "value": 75
+    },
+    {
+      "icon": "mdi-alpha-p-circle-outline",
+      "name": "Procreate",
+      "value": 75
+    },
+    {
+      "icon": "mdi-alpha-f-circle-outline",
+      "name": "Figma",
+      "value": 25
+    },
+    {
+      "icon": "mdi-account-tie-voice",
+      "name": "Communication",
+      "value": 50
+    },
+    {
+      "icon": "mdi-alpha-l-circle-outline",
+      "name": "Leadership",
+      "value": 25
+    }
+  ]
+}

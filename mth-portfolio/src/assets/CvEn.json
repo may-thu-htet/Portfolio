@@ -1,0 +1,167 @@
+{
+  "personalInfo": {
+    "icon": "",
+    "name": "May Thu Htet",
+    "profilePicLink": "",
+    "profession": "UI/UX Design + Web Developer"
+  },
+  "contact": {
+    "email": { "icon": "mdi-email", "value": "maythuhtet2892@gmail.com" },
+    "address": {
+      "icon": "mdi-map-marker",
+      "value": "Kunitachi, Tokyo, Japan"
+    },
+    "socialMedia": [
+      {
+        "icon": "mdi-linkedin",
+        "color": "light-blue",
+        "value": "https://www.linkedin.com/"
+      },
+      {
+        "icon": "mdi-facebook",
+        "color": "blue",
+        "value": "https://www.facebook.com/"
+      },
+      {
+        "icon": "mdi-instagram",
+        "color": "red",
+        "value": "https://www.instagram.com/"
+      }
+    ]
+  },
+  "educations": [
+    {
+      "icon": {
+        "level": "mdi-book-education",
+        "university": "mdi-office-building-marker",
+        "year": "mdi-calendar-month"
+      },
+      "level": "MSc in Naval Architecture",
+      "university": "Newcastle University, United Kingdom",
+      "year": "Sept 2015 - Oct 2017"
+    }
+  ],
+  "languages": [
+    {
+      "icon": "mdi-",
+      "name": "Burmese",
+      "value": 100
+    },
+    {
+      "icon": "mdi-",
+      "name": "English",
+      "value": 75
+    },
+    {
+      "icon": "mdi-ideogram-cjk",
+      "name": "Japanese",
+      "value": 75
+    }
+  ],
+  "skills": [
+    {
+      "icon": "mdi-vuejs",
+      "name": "VueJS",
+      "value": 75
+    },
+    {
+      "icon": "mdi-vuetify",
+      "name": "Vuetify",
+      "value": 75
+    },
+    {
+      "icon": "mdi-language-html5",
+      "name": "HTML",
+      "value": 50
+    },
+    {
+      "icon": "mdi-language-css3",
+      "name": "CSS",
+      "value": 50
+    },
+    {
+      "icon": "mdi-language-javascript",
+      "name": "Javascript",
+      "value": 75
+    },
+    {
+      "icon": "mdi-alpha-p-circle-outline",
+      "name": "Procreate",
+      "value": 75
+    },
+    {
+      "icon": "mdi-alpha-f-circle-outline",
+      "name": "Figma",
+      "value": 25
+    },
+    {
+      "icon": "mdi-account-tie-voice",
+      "name": "Communication",
+      "value": 50
+    },
+    {
+      "icon": "mdi-alpha-l-circle-outline",
+      "name": "Leadership",
+      "value": 25
+    }
+  ],
+  "motivation": {
+    "descriptions": {
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus in hac habitasse platea. Odio ut sem nulla pharetra diam sit amet. Pellentesque elit eget gravida cum sociis natoque. Feugiat sed lectus vestibulum mattis ullamcorper velit. Varius duis at consectetur lorem donec. Elementum eu facilisis sed odio morbi quis commodo. Varius sit amet mattis vulputate enim nulla. Nunc sed blandit libero volutpat sed cras ornare. At tempor commodo ullamcorper a lacus vestibulum sed. Ac ut consequat semper viverra nam libero justo. Malesuada proin libero nunc consequat. Augue neque gravida in fermentum et. Cras tincidunt lobortis feugiat vivamus at augue eget. Dolor morbi non arcu risus quis."
+    }
+  },
+  "hobbies": [
+    {
+      "icon": "fa:fas fa-palette fa-beat",
+      "style": "--fa-animation-duration: 3s;--fa-animation-iteration-count: 3;",
+      "color": "blue",
+      "size": "100px",
+      "description": "Painting"
+    },
+    {
+      "icon": "fa:fas fa-person-walking-luggage fa-flip",
+      "style": "--fa-animation-duration: 3s;--fa-animation-iteration-count: 3;",
+      "color": "blue",
+      "size": "100px",
+      "description": "Travelling"
+    },
+    {
+      "icon": "mdi-alpha-l-circle-outline",
+      "color": "blue",
+      "size": "100px",
+      "description": "Learning"
+    }
+  ],
+  "projects": [
+    {
+      "icon": "mdi-vuejs",
+      "color": "green",
+      "name": "Leadership",
+      "description": "My greate Project Sample",
+      "link": "https://www.google.com"
+    },
+    {
+      "icon": "mdi-vuejs",
+      "color": "green",
+      "name": "Vue App",
+      "description": "Coming Soon ...",
+      "link": "https://www.figma.com"
+    }
+  ],
+  "certificates": [
+    {
+      "icon": "mdi-alpha-l-circle-outline",
+      "name": "Foundation of UI/UX with Google",
+      "description": "UI/UI basics",
+      "imgSrc": "",
+      "link": "https://www.google.com"
+    },
+    {
+      "icon": "mdi-alpha-l-circle-outline",
+      "name": "Business Transformation with Google Cloud",
+      "description": "DX",
+      "imgSrc": "",
+      "link": "https://www.google.com"
+    }
+  ]
+}
