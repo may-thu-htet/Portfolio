@@ -85,7 +85,8 @@
       "value": 75
     },
     {
-      "icon": "mdi-alpha-p-circle-outline",
+      "icon": "",
+      "svg": "Procreate Icon.svg",
       "name": "Procreate",
       "value": 75
     },
@@ -162,7 +163,8 @@
       "link": "https://www.figma.com"
     },
     {
-      "icon": "procreate",
+      "icon": "",
+      "svg": "procreate_icon.svg",
       "color": "green",
       "name": "Procreate App",
       "description": "Coming soon ...",

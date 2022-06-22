@@ -130,12 +130,17 @@
             >
               <v-list-item>
                 <v-icon
+                  v-if="item.icon !== ''"
                   :icon="item.icon ? item.icon : 'mdi'"
                   :color="item.color ? item.color : ''"
                   :size="item.size ? item.size : 'default'"
                   class="pr-3"
                 ></v-icon
-                >{{ item.name && !item.link ? item.name : item.value }}
+                ><img
+                  v-if="item.svg"
+                  :src="require('@/assets/SVG/' + item.svg)"
+                />{{ item.name && !item.link ? item.name : item.value
+                }}{{ item.svg }}
 
                 <!-- button for links to open in new tab -->
                 <v-btn
