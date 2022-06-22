@@ -12,8 +12,14 @@
           :class="cardStyle"
           color="info"
           :size="avatarSize"
-          ><v-icon :size="avatarSize">mdi-account</v-icon></v-avatar
-        >
+          ><v-img
+            class="position-initial"
+            alt="Avatar"
+            :src="imageSrc.src"
+            cover
+          ></v-img>
+          <!-- <v-icon :size="avatarSize">mdi-account</v-icon> -->
+        </v-avatar>
 
         <!-- Each card format will be like the following -->
         <!-- <v-card-content>
@@ -189,6 +195,7 @@ import { useCVStore } from "@/stores/CVStore";
 import { useLangStore } from "@/stores/LangStore";
 import Level from "@/level";
 import LangOption from "./ui/LangOption.vue";
+import profile from "@/assets/MTH Photo.png";
 
 const { name, height } = useDisplay();
 const theme = useTheme();
@@ -200,6 +207,9 @@ const level = ref({
   en: Level.en,
   jp: Level.jp,
 });
+
+const imageSrc = ref({ src: profile });
+// const imageSrc = ref({ src: "./src/assets/MTH Photo.png" });
 
 const avatarSize = computed(() => {
   switch (name.value) {
@@ -222,3 +232,8 @@ const cardStyle = computed(() => {
   return "px-0 px-md-3 pb-0 pb-sm-3";
 });
 </script>
+<style scoped>
+.position-initial {
+  position: initial !important;
+}
+</style>
