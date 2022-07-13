@@ -3,7 +3,7 @@
     "icon": "",
     "name": "メイトウテツ",
     "profilePicLink": "",
-    "profession": "UI/UXデザイナー　+　ウェイブデベロッパー"
+    "profession": "UI/UXデザイナー　+　ウェブデベロッパー"
   },
   "contact": {
     "email": { "icon": "mdi-email", "value": "maythuhtet2892@gmail.com" },
@@ -150,15 +150,15 @@
       "icon": "mdi-language-css3",
       "color": "orange",
       "name": "CSS Project",
-      "description": "Coming soon...",
+      "description": "作成したCSSプロジェクトです。",
       "link": "/candy"
     },
     {
       "icon": "mdi-vuejs",
       "color": "green",
       "name": "Vue App",
-      "description": "Coming soon ...",
-      "link": "https://www.figma.com"
+      "description": "Vueを使ったウェブアプリです。",
+      "link": "/inprogress"
     },
     {
       "icon": "procreate",
