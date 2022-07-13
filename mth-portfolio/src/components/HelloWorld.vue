@@ -149,13 +149,14 @@
                 }}{{ item.svg }}
 
                 <!-- button for links to open in new tab -->
+                <!-- :href="item.link" -->
                 <v-btn
                   v-if="item.link"
                   class="text-decoration-underline pl-0"
                   :color="linkColor"
-                  :href="item.link"
                   target="_blank"
                   variant="text"
+                  @click="$router.push(item.link)"
                   >{{ item.name }}</v-btn
                 ><v-icon v-if="item.link">mdi-open-in-new</v-icon>
               </v-list-item>
