@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img class="img-fluid" src="imgs/hand2.png" alt="" />
+          <img class="img-fluid" src="../candy image/hand2.png" alt="" />
         </div>
       </div>
     </section>
@@ -53,14 +53,14 @@
     <section class="container-fluid px-0">
       <div class="row align-items-center content">
         <div class="col-md-6 order-2 order-md-1">
-          <img src="imgs/milk.png" alt="" class="img-fluid" />
+          <img src="../candy image/milk.png" alt="" class="img-fluid" />
         </div>
         <div class="col-md-6 text-center order-1 order-md-2">
           <div class="row justify-content-center">
             <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
               <h2>MUSEUM OF CANDY</h2>
               <img
-                src="imgs/lolli_icon.png"
+                src="../candy image/lolli_icon.png"
                 alt=""
                 class="d-none d-lg-inline"
               />
@@ -83,7 +83,7 @@
             <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
               <h2>MUSEUM OF CANDY</h2>
               <img
-                src="imgs/lolli_icon.png"
+                src="../candy image/lolli_icon.png"
                 alt=""
                 class="d-none d-lg-inline"
               />
@@ -100,19 +100,19 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="imgs/gumball.png" alt="" class="img-fluid" />
+          <img src="../candy image/gumball.png" alt="" class="img-fluid" />
         </div>
       </div>
       <div class="row align-items-center content">
         <div class="col-md-6 order-2 order-md-1">
-          <img src="imgs/sprinkles.png" alt="" class="img-fluid" />
+          <img src="../candy image/sprinkles.png" alt="" class="img-fluid" />
         </div>
         <div class="col-md-6 text-center order-1 order-md-2">
           <div class="row justify-content-center">
             <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
               <h2>MUSEUM OF CANDY</h2>
               <img
-                src="imgs/lolli_icon.png"
+                src="../candy image/lolli_icon.png"
                 alt=""
                 class="d-none d-lg-inline"
               />
@@ -148,6 +148,9 @@ function () {
   });
 };
 </script> -->
+<!-- <script setup>
+import profile from "@/assets/candy image/hand2.png";
+</script> -->
 <style scoped>
 body {
   background: #f5d9d5;
@@ -175,6 +178,7 @@ body {
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 100;
+  background-color: #d3a7f8;
 }
 
 #mainNavbar .nav-link {
