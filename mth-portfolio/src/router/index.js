@@ -25,6 +25,11 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import("../views/CandyProject.vue"),
     },
+    {
+      path: "/inprogress",
+      name: "workinprogress",
+      component: () => import("../views/WorkInProgress.vue"),
+    },
   ],
 });
 
