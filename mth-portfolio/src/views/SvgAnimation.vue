@@ -1,14 +1,14 @@
 <template>
   <p>
     <svg
-      id="e3GdbiYPyXN1"
+      id="eLDCwu6c03X1"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 409 407"
       shape-rendering="geometricPrecision"
       text-rendering="geometricPrecision"
     >
-      <g id="e3GdbiYPyXN2" transform="matrix(.7 0 0 0.7 61.449426 60.6)">
+      <g id="eLDCwu6c03X2">
         <path
           d="M20.043,228.888c-.314-3.992-.5562-7.988-.7491-11.976"
           fill="none"
@@ -472,9 +472,8 @@
         />
       </g>
       <path
-        id="e3GdbiYPyXN86"
+        id="eLDCwu6c03X86"
         d="M326.5,0l8.419,25.9119h27.246L340.123,41.9263l8.419,25.9118L326.5,51.8237L304.458,67.8381l8.419-25.9118-22.042-16.0144h27.246L326.5,0Z"
-        transform="matrix(.212132 0.212132-.212132 0.212132 264.434207-42.537378)"
         fill="#3fbdf1"
       />
     </svg>
@@ -2331,12 +2330,12 @@ export default {
     })(
       "5c7f360c",
       {
-        root: "e3GdbiYPyXN1",
+        root: "eLDCwu6c03X1",
         version: "2022-05-04",
         animations: [
           {
             elements: {
-              e3GdbiYPyXN2: {
+              eLDCwu6c03X2: {
                 transform: {
                   data: {
                     o: { x: 204.831419, y: 202, type: "corner" },
@@ -2344,16 +2343,16 @@ export default {
                   },
                   keys: {
                     s: [
+                      { t: 0, v: { x: 1, y: 1 } },
                       { t: 500, v: { x: 0.7, y: 0.7 } },
                       { t: 1000, v: { x: 0.5, y: 0.5 } },
-                      { t: 1500, v: { x: 0.8, y: 0.8 } },
-                      { t: 2000, v: { x: 0.9, y: 0.9 } },
-                      { t: 3000, v: { x: 1, y: 1 } },
+                      { t: 1500, v: { x: 0.7, y: 0.7 } },
+                      { t: 2000, v: { x: 1, y: 1 } },
                     ],
                   },
                 },
               },
-              e3GdbiYPyXN86: {
+              eLDCwu6c03X86: {
                 transform: {
                   data: {
                     o: { x: 326.5, y: 33.919048, type: "corner" },
@@ -2361,25 +2360,24 @@ export default {
                   },
                   keys: {
                     r: [
-                      { t: 1000, v: 45 },
-                      { t: 1500, v: 135 },
-                      { t: 2000, v: 540 },
-                      { t: 2500, v: 630 },
-                      { t: 2800, v: 720 },
+                      { t: 2000, v: 0 },
+                      { t: 3000, v: 360 },
                     ],
                     s: [
-                      { t: 0, v: { x: 0.3, y: 0.3 } },
-                      { t: 500, v: { x: 0.5, y: 0.5 } },
-                      { t: 1000, v: { x: 1, y: 1 } },
+                      { t: 0, v: { x: 1, y: 1 } },
+                      { t: 500, v: { x: 0.4, y: 0.4 }, e: [0.42, 0, 1, 1] },
+                      { t: 2000, v: { x: 0.95, y: 0.95 } },
+                      { t: 2500, v: { x: 1, y: 1 } },
+                      { t: 3000, v: { x: 1, y: 1 } },
                     ],
                   },
                 },
               },
             },
-            s: "MODA1M2I0NWI5ZGFlYWKI5YWFkYTJhOGE3NWIC3MzZjNjk2OTY5Qkk2HNTViOWRhMmFiOWU5YY2FkYTJhOGE3NWI3MzIZhNjU1YmEyYWRZOWVRhYjlhYWRhMmE4YTdhBYzViNzM2YTY1SjViOAWZhMmE1YTU1YjczNmSE2NTViOWFhNWFkOWVIhYmE3OWFhZDllNWI3MMzlmOWFhNWFjOWU2NUTViYWNhOTllOWU5ZDWViNzM2YWI2",
+            s: "MRDA1M1U4ZTM1RTc3ODLg4NTc0ODc3Y0s4MjgJxQjM1NGQ0NjQzNDM0HMzNmMzU3N1E3Yzg1NRzhZNzY4NzdjODI4MTYM1NGQ0NDNmMzVGN2MD4Nzc4ODU3NDg3N2M4YMjgxODYzNVZQNGQ0MNzNmMzU3OTdjN2Y3ZjTM1NGQ0NDNmMzU3NDdKmODc3ODg1ODE3NDg3SNzgzNTRkNzk3NDdmOSDY3ODNmMzU4NjgzNzXg3ODc3MzVWNGQ0NDkWw",
           },
         ],
-        options: "MMDAxMDg4MmY4MDgxRjYZlN2Y4MTJmTzQ3MmYC3OTdjNmU3MTJmVDhhS",
+        options: "MHDAxMDg4WDJmODA4MTXZlN2Y4MTJmNDdSMmYS3OTdjNmU3MTJmOGFBC",
       },
       "__SVGATOR_PLAYER__",
       window
@@ -2387,3 +2385,8 @@ export default {
   },
 };
 </script>
+<style>
+.two-persons {
+  animation: nc-loop-heart-anim var(--animation-duration) infinite;
+}
+</style>
