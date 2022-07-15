@@ -9,7 +9,7 @@
     "email": { "icon": "mdi-email", "value": "maythuhtet2892@gmail.com" },
     "address": {
       "icon": "mdi-map-marker",
-      "value": "東京都国立市"
+      "value": "東京都荒川区"
     },
     "socialMedia": [
       {
@@ -38,7 +38,7 @@
       },
       "level": "理学修士 (造船アーキテクチャ)終了",
       "university": "イギリス、ニューカッスル大学",
-      "year": "2015年9月 - 2017年10月"
+      "year": "2015年9月 - 2017年12月"
     }
   ],
   "languages": [
@@ -178,8 +178,8 @@
       "icon": "fa:fas fa-image",
       "color": "teal-darken-1",
       "name": "Gallery",
-      "description": "Coming soon ...",
-      "link": "https://www.figma.com"
+      "description": "クリエイティブプロジェクトのショーケース",
+      "link": "href='https://maythuhtet2892.myportfolio.com/'"
     }
   ],
 
