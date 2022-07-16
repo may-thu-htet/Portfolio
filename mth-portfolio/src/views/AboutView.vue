@@ -16,10 +16,10 @@
         that I can apply in design consideration.
       </p>
       <div>
-        <img src="../welding photos/IMG_6441.JPG" alt="pic 1" />
-        <img src="../welding photos/IMG_6442.JPG" alt="pic 2" />
-        <img src="../welding photos/IMG_6444.JPG" alt="pic 3" />
-        <img src="../welding photos/IMG_6454.JPG" alt="pic 4" />
+        <img :src="images.image1" alt="pic 1" />
+        <img :src="images.image2" alt="pic 2" />
+        <img :src="images.image3" alt="pic 3" />
+        <img :src="images.image4" alt="pic 4" />
       </div>
       <p>
         After a while, I am thinking about what I want to do in the future
@@ -36,20 +36,59 @@
         my art works throughout my life until now.
       </p>
       <div>
-        <img src="../Painting/Mt.Fuji.jpg" alt="paint1" />
-        <img src="../Painting/Splashing cloud.jpg" alt="paint2" />
-        <img src="../Painting/War and Peace.jpg" alt="paint3" />
-        <img src="../Painting/Tharapa gate.jpg" alt="paint4" />
-        <img src="../Painting/Fiona.jpg" alt="paint5" />
-        <img src="../Painting/Comy.jpg" alt="paint6" />
-        <img src="../Painting/Taylor Swift .jpg" alt="paint7" />
-        <img src="../Painting/The Eyes.jpg" alt="paint8" />
+        <img :src="images.image5" alt="paint1" />
+        <img :src="images.image6" alt="paint2" />
+        <img :src="images.image7" alt="paint3" />
+        <img :src="images.image8" alt="paint4" />
+        <img :src="images.image9" alt="paint5" />
+        <img :src="images.image10" alt="paint6" />
+        <img :src="images.image11" alt="paint7" />
+        <img :src="images.image12" alt="paint8" />
       </div>
+      <h2>Self PR</h2>
+      <p>
+        As I am interested in art and design, I strongly believed that I can
+        create an attractive and easy-to-use web app using my self-study
+        knowledge and artistic sense. I can communicate well between the teams
+        and organize the information and ideas in the most efficient way.I have
+        high level of attention-to-detail as I had to work precisely at the
+        previous job at which the maximum allowable error tolerance is within
+        +-1mm.
+      </p>
     </div>
   </body>
 </template>
+<script setup>
+import { ref } from "vue";
+import wPhoto1 from "@/welding photos/IMG_6441.jpg";
+import wPhoto2 from "@/welding photos/IMG_6442.jpg";
+import wPhoto3 from "@/welding photos/IMG_6444.jpg";
+import wPhoto4 from "@/welding photos/IMG_6454.jpg";
+import pPhoto1 from "@/Painting/Mt.Fuji.jpg";
+import pPhoto2 from "@/Painting/Splashing cloud.jpg";
+import pPhoto3 from "@/Painting/War and Peace.jpg";
+import pPhoto4 from "@/Painting/Tharapa gate.jpg";
+import pPhoto5 from "@/Painting/Fiona.jpg";
+import pPhoto6 from "@/Painting/Comy.jpg";
+import pPhoto7 from "@/Painting/Taylor Swift .jpg";
+import pPhoto8 from "@/Painting/The Eyes.jpg";
+const images = ref({
+  image1: wPhoto1,
+  image2: wPhoto2,
+  image3: wPhoto3,
+  image4: wPhoto4,
+  image5: pPhoto1,
+  image6: pPhoto2,
+  image7: pPhoto3,
+  image8: pPhoto4,
+  image9: pPhoto5,
+  image10: pPhoto6,
+  image11: pPhoto7,
+  image12: pPhoto8,
+});
+</script>
 
-<style>
+<style scoped>
 @media (min-width: 1024px) {
   .about {
     display: flex;
@@ -64,6 +103,9 @@
 h1 {
   text-align: center;
   padding-top: 1rem;
+}
+h2 {
+  margin: 1rem;
 }
 p {
   font-family: "Lato", sans-serif;

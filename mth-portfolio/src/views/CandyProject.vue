@@ -2,7 +2,7 @@
   <body>
     <nav
       id="mainNavbar"
-      class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+      class="navbar navbar-dark navbar-expand-md py-0 top-fixed"
     >
       <a href="#" class="navbar-brand">CANDY</a>
       <button
@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img class="img-fluid" src="../candy image/hand2.png" alt="" />
+          <img class="img-fluid" :src="images.image1" alt="hand2" />
         </div>
       </div>
     </section>
@@ -53,15 +53,15 @@
     <section class="container-fluid px-0">
       <div class="row align-items-center content">
         <div class="col-md-6 order-2 order-md-1">
-          <img src="../candy image/milk.png" alt="" class="img-fluid" />
+          <img :src="images.image2" alt="milk" class="img-fluid" />
         </div>
         <div class="col-md-6 text-center order-1 order-md-2">
           <div class="row justify-content-center">
             <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
               <h2>MUSEUM OF CANDY</h2>
               <img
-                src="../candy image/lolli_icon.png"
-                alt=""
+                :src="images.image3"
+                alt="lolli"
                 class="d-none d-lg-inline"
               />
               <p class="lead">
@@ -83,8 +83,8 @@
             <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
               <h2>MUSEUM OF CANDY</h2>
               <img
-                src="../candy image/lolli_icon.png"
-                alt=""
+                :src="images.image3"
+                alt="lolli"
                 class="d-none d-lg-inline"
               />
               <p class="lead">
@@ -100,20 +100,20 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img src="../candy image/gumball.png" alt="" class="img-fluid" />
+          <img :src="images.image4" alt="gumball" class="img-fluid" />
         </div>
       </div>
       <div class="row align-items-center content">
         <div class="col-md-6 order-2 order-md-1">
-          <img src="../candy image/sprinkles.png" alt="" class="img-fluid" />
+          <img :src="images.image5" alt="sprinkles" class="img-fluid" />
         </div>
         <div class="col-md-6 text-center order-1 order-md-2">
           <div class="row justify-content-center">
             <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
               <h2>MUSEUM OF CANDY</h2>
               <img
-                src="../candy image/lolli_icon.png"
-                alt=""
+                :src="images.image3"
+                alt="lolli"
                 class="d-none d-lg-inline"
               />
               <p class="lead">
@@ -140,6 +140,7 @@
         crossorigin="anonymous"></script> -->
   </body>
 </template>
+
 <!-- <script>
 function () {
   document.scroll(function () {
@@ -151,10 +152,38 @@ function () {
 <!-- <script setup>
 import profile from "@/assets/candy image/hand2.png";
 </script> -->
+
+<script setup>
+import { ref } from "vue";
+import hand2 from "@/candy image/hand2.png";
+import milk from "@/candy image/milk.png";
+import lolli from "@/candy image/lolli_icon.png";
+import gumball from "@/candy image/gumball.png";
+import sprinkles from "@/candy image/sprinkles.png";
+const images = ref({
+  image1: hand2,
+  image2: milk,
+  image3: lolli,
+  image4: gumball,
+  image5: sprinkles,
+});
+// const imageMilk = ref({ image2: milk });
+// const imageLolli = ref({ image3: lolli });
+// const imageGumball = ref({ image4: gumball });
+// const imageSprinkles = ref({ image5: sprinkles });
+</script>
 <style scoped>
 body {
   background: #f5d9d5;
   font-family: "Nunito", sans-serif;
+}
+
+.top-fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .blurb h2 {
@@ -178,7 +207,7 @@ body {
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 100;
-  background-color: #d3a7f8;
+  /* background-color: #d3a7f8; */
 }
 
 #mainNavbar .nav-link {

@@ -51,7 +51,9 @@ export default {
   },
   computed: {
     links() {
-      return this.$router.options.routes.filter((route) => route.name);
+      return this.$router.options.routes.filter(
+        (route) => route.name !== "workinprogress" && route.name !== "candy"
+      );
     },
     switchColor() {
       return this.$vuetify.theme.name === "light" ? "#e57105" : "purple";
