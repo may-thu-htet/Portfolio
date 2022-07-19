@@ -160,28 +160,20 @@
       "description": "Vueを使ったウェブアプリです。",
       "link": "/inprogress"
     },
-    {
-      "icon": "procreate",
-      "color": "green",
-      "name": "Procreate App",
-      "description": "Coming soon ...",
-      "link": "https://www.procreate.com"
-    },
-    {
-      "icon": "figma",
-      "color": "green",
-      "name": "Figma App",
-      "description": "Coming soon ...",
-      "link": "https://www.figma.com"
-    },
+
     {
       "icon": "fa:fas fa-image",
       "color": "teal-darken-1",
       "name": "Gallery",
       "description": "クリエイティブプロジェクトのショーケース",
-      "link": "href='https://maythuhtet2892.myportfolio.com/'"
+      "link": "https://maythuhtet2892.myportfolio.com/"
     }
   ],
+  "experiences": {
+    "descriptions": {
+      "value": "トヨタ工機 株式会社"
+    }
+  },
 
   "certificates": [
     {

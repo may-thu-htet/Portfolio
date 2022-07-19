@@ -151,14 +151,28 @@
                 <!-- button for links to open in new tab -->
                 <!-- :href="item.link" -->
                 <v-btn
-                  v-if="item.link"
+                  v-if="
+                    item.name === 'CSS Project' ||
+                    item.name === 'Vue App' ||
+                    item.value
+                  "
                   class="text-decoration-underline pl-0"
                   :color="linkColor"
                   target="_blank"
                   variant="text"
                   @click="$router.push(item.link)"
                   >{{ item.name }}</v-btn
-                ><v-icon v-if="item.link">mdi-open-in-new</v-icon>
+                >
+                <v-btn class="buttonLink" v-else :href="item.link">{{
+                  item.name
+                }}</v-btn>
+                <v-icon
+                  v-if="
+                    (item.link && item.name !== 'CSS Project') ||
+                    (item.name !== 'Vue App' && !item.value)
+                  "
+                  >mdi-open-in-new</v-icon
+                >
               </v-list-item>
             </div>
             <div
@@ -241,5 +255,8 @@ const cardStyle = computed(() => {
 <style scoped>
 .position-initial {
   position: initial !important;
+}
+.buttonLink {
+  background-color: #cdbeff;
 }
 </style>

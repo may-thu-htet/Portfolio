@@ -13,6 +13,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -23,6 +24,9 @@
           </li>
           <li class="nav-item">
             <a href="" class="nav-link">TICKETS</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://maythuhtet.com/" class="nav-link">BACK</a>
           </li>
         </ul>
       </div>
@@ -245,5 +249,10 @@ body {
   .blurb h2 {
     font-size: 2rem;
   }
+}
+.new {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0.5rem;
+  font-size: 1.5rem;
 }
 </style>

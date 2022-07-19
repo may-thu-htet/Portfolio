@@ -1,6 +1,9 @@
 <template>
   <body style="background-color: #d8cbfb">
-    <h1 class="about">Introduction (自己紹介)</h1>
+    <section class="container-fluid px-0">
+      <a href="https://maythuhtet.com/" class="nav-link">Home</a>
+      <h1 class="about">Introduction (自己紹介)</h1>
+    </section>
     <div>
       <p>
         I had finished my undergraduate degree in February,2015 and decided to
@@ -14,6 +17,14 @@
         formwork from scratch. The following photos were taken when I went to
         the factory and trying to understand the assembly and welding process so
         that I can apply in design consideration.
+      </p>
+      <p>
+        私は2015年2月に学士号を取得し、留学することにしました。
+        そのため、私は必要な語学力の準備を始め、その後英国に行き、ニューカッスル大学の卒業後の修士課程に参加しました。
+        卒業後、フリーランスの造船技師として働き始めました。
+        しばらくして、もっと挑戦したいと思い、日本に来てトヨタ自動車株式会社の設計技術者として働くことにしました。
+        型枠を一から設計したいので、先見の明のある会社で試してみましたが、工場に行って研修もしました。
+        次の写真は、私が工場に行って、組み立てと溶接のプロセスを理解し、設計上の考慮事項に適用できるようにしようとしたときに撮影したものです。
       </p>
       <div>
         <img :src="images.image1" alt="pic 1" />
@@ -35,6 +46,15 @@
         oil which is on my next basket list. The following pictures are some of
         my art works throughout my life until now.
       </p>
+      <p>
+        しばらくして、将来のキャリアで何をしたいのかを考えていて、その結果、モブリーアプリだけでなく、シンプルでアーティスティックなウェブアプリを実装して、クリエイティブなデザインに取り組みたいと思っています。
+        そこで、2011年10月から基本的なHTML、CSS、JavaScriptを学び始めました。それから、Figmaとデザインコンセプトを使った自習用UIUXデザインに移行し、とても楽しんでいます。
+        趣味はアートを作ることで、子供の頃から絵を描いたり描いたりしています。
+        たくさんの肖像画、アクリル画、水彩画、アクリル絵具、色鉛筆、パステルを使った現代絵画を描きました。
+        最近、Procreateアプリを使ってデジタルドローイングを学び始めました。
+        また、次のバスケットリストにある油を使った絵の具を学びたいです。
+        次の写真は、これまでの私の人生の芸術作品の一部です。
+      </p>
       <div>
         <img :src="images.image5" alt="paint1" />
         <img :src="images.image6" alt="paint2" />
@@ -54,6 +74,10 @@
         high level of attention-to-detail as I had to work precisely at the
         previous job at which the maximum allowable error tolerance is within
         +-1mm.
+      </p>
+      <p>
+        アートとデザインに興味があるので、自習の知識と芸術的な感覚を使って、魅力的で使いやすいWebアプリを作成できると強く信じていました。
+        チーム間でうまくコミュニケーションを取り、最も効率的な方法で情報やアイデアを整理することができます。最大許容誤差が+-1mm以内である前の仕事で正確に作業する必要があったため、細部にまで注意を払う必要があります。
       </p>
     </div>
   </body>
@@ -100,6 +124,11 @@ const images = ref({
     margin-bottom: 0;
   }
 }
+.nav-link {
+  text-align: right;
+  padding-top: 1rem;
+  font-size: large;
+}
 h1 {
   text-align: center;
   padding-top: 1rem;
@@ -114,7 +143,7 @@ p {
   font-size: large;
   margin-bottom: 1rem;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+
   padding-left: 1rem;
   font-display: justify;
   justify-content: space-evenly;
@@ -127,5 +156,10 @@ img {
   border-radius: 15%;
   height: auto;
   justify-content: space-evenly;
+}
+.back {
+  background-color: blueviolet;
+  position: relative;
+  color: white;
 }
 </style>
