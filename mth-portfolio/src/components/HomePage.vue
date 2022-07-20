@@ -2,7 +2,13 @@
   <v-row class="text-center d-flex flex-wrap h-100" no-gutters>
     <!-- Portfolio Left Side Info Start Here -->
     <v-col cols="12" sm="5" md="4" lg="3" xxl="2">
-      <v-card flat color="blue-grey-darken-4" rounded="0" :min-height="height">
+      <v-card
+        flat
+        color="blue-grey-darken-4"
+        rounded="0"
+        :min-height="height"
+        height="100%"
+      >
         <!-- EN / JP button -->
         <lang-option></lang-option>
 
@@ -163,9 +169,15 @@
                   @click="$router.push(item.link)"
                   >{{ item.name }}</v-btn
                 >
-                <v-btn class="buttonLink" v-else :href="item.link">{{
-                  item.name
-                }}</v-btn>
+                <v-btn
+                  class="text-decoration-underline pl-0 text-wrap"
+                  :color="linkColor"
+                  target="_blank"
+                  variant="text"
+                  v-else
+                  :href="item.link"
+                  >{{ item.name }}</v-btn
+                >
                 <v-icon
                   v-if="
                     (item.link && item.name !== 'CSS Project') ||
@@ -198,7 +210,9 @@
                   :color="item.color ? item.color : ''"
                   :size="item.size ? item.size : 'default'"
                 ></v-icon
-                ><br /><v-card-text>{{ item.description }}</v-card-text></v-btn
+                ><br /><v-card-text :width="flexWidth">{{
+                  item.description
+                }}</v-card-text></v-btn
               >
             </v-col>
           </template>
@@ -215,7 +229,7 @@ import { useCVStore } from "@/stores/CVStore";
 import { useLangStore } from "@/stores/LangStore";
 import Level from "@/level";
 import LangOption from "./ui/LangOption.vue";
-import profile from "@/assets/MTH Photo.png";
+import profile from "@/assets/May.jpg";
 
 const { name, height } = useDisplay();
 const theme = useTheme();
@@ -242,6 +256,19 @@ const avatarSize = computed(() => {
   }
 });
 
+const flexWidth = computed(() => {
+  switch (name.value) {
+    // setting avatar size for smaller screens
+    case "xs":
+      return "960";
+    case "sm":
+      return "960";
+    // default avatar size for all other screens
+    default:
+      return "120";
+  }
+});
+
 // color for link
 const linkColor = computed(() => {
   return theme.name.value === "dark" ? "light-blue-lighten-4" : "blue-accent-3";
@@ -256,7 +283,7 @@ const cardStyle = computed(() => {
 .position-initial {
   position: initial !important;
 }
-.buttonLink {
-  background-color: #cdbeff;
+a >>> div.v-btn__content {
+  white-space: break-spaces !important;
 }
 </style>
