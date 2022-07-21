@@ -82,7 +82,9 @@
                 rounded
                 color="blue"
                 :model-value="item.value"
-              ></v-progress-linear>
+              >
+                <v-svg-icon></v-svg-icon>
+              </v-progress-linear>
             </div>
 
             <!-- Social Media div on Contact div -->

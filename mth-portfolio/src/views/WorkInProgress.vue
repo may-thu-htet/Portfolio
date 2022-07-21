@@ -1,32 +1,41 @@
 <template>
-  <a href="https://maythuhtet.com/" class="nav-link">Home</a>
-  <h1 class="header">Still working in progress</h1>
-  <div class="col-md-3">
-    <svg-animation class="img-fluid"></svg-animation>
-  </div>
+  <v-row justify="center">
+    <h1 class="header">Still working in progress</h1>
+    <svg-animation class="img-fluid mt-12 pt-12"></svg-animation>
+  </v-row>
+  <!-- <div class="d-flex justify-center"></div> -->
+  <v-row justify="center">
+    <v-btn @click="$router.push('/')" class="ma-2" color="#79b7e5">
+      <v-icon start icon="mdi-arrow-left"></v-icon>BACK
+    </v-btn></v-row
+  >
 </template>
 <script setup>
 import SvgAnimation from "./SvgAnimation.vue";
+// const home = computed(() => {
+//   return "https:maythuhtet.com/";
+// });
 </script>
 <style scoped>
-.header {
+h1 {
   color: #004f70;
   position: absolute;
-  width: 570px;
-  height: 89px;
-  left: 435px;
-  top: 43px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 .img-fluid {
-  position: absolute;
   width: 300px;
   height: 400px;
-  left: 480px;
-  top: 120px;
 }
 .nav-link {
-  text-align: right;
+  text-align: center;
   padding-top: 1rem;
   font-size: large;
+  font-weight: bold;
+}
+
+a {
+  color: #004f70;
 }
 </style>
