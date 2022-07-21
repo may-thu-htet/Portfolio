@@ -83,7 +83,7 @@
                 color="blue"
                 :model-value="item.value"
               >
-                <v-svg-icon></v-svg-icon>
+                <MyanmarFlag></MyanmarFlag>
               </v-progress-linear>
             </div>
 
@@ -232,6 +232,7 @@ import { useLangStore } from "@/stores/LangStore";
 import Level from "@/level";
 import LangOption from "./ui/LangOption.vue";
 import profile from "@/assets/May.jpg";
+import MyanmarFlag from "../styles/SvgIcon/MyanmarFlag.vue";
 
 const { name, height } = useDisplay();
 const theme = useTheme();
