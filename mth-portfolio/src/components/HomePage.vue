@@ -85,7 +85,7 @@
               ></v-row>
 
               <v-row class="pa-0 ma-0"
-                ><uk-flag v-if="item.name === '英語'"></uk-flag
+                ><UkFlag v-if="item.name === '英語'"></UkFlag
               ></v-row>
               <v-row class="pa-0 ma-0"
                 ><japan-flag v-if="item.name === '日本語'"></japan-flag
@@ -246,7 +246,7 @@ import Level from "@/level";
 import LangOption from "./ui/LangOption.vue";
 import profile from "@/assets/May.jpg";
 import MyanmarFlag from "../styles/SvgIcon/MyanmarFlag.vue";
-import UkFlag from "../styles/SvgIcon/ukFlag.vue";
+import UkFlag from "../styles/SvgIcon/UkFlag.vue";
 import JapanFlag from "../styles/SvgIcon/japanFlag.vue";
 
 const { name, height } = useDisplay();
