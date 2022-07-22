@@ -76,6 +76,20 @@
               </v-list-item>
 
               <!-- Progress bar for skills and languages -->
+              <!--language Flags-->
+              <v-row class="pa-0 ma-0">
+                <myanmar-flag
+                  class="fixed-start"
+                  v-if="item.name === 'ミャンマー語'"
+                ></myanmar-flag
+              ></v-row>
+
+              <v-row class="pa-0 ma-0"
+                ><uk-flag v-if="item.name === '英語'"></uk-flag
+              ></v-row>
+              <v-row class="pa-0 ma-0"
+                ><japan-flag v-if="item.name === '日本語'"></japan-flag
+              ></v-row>
               <v-progress-linear
                 v-if="titleKey === 'skills' || titleKey === 'languages'"
                 height="8"
@@ -83,7 +97,6 @@
                 color="blue"
                 :model-value="item.value"
               >
-                <v-svg-icon></v-svg-icon>
               </v-progress-linear>
             </div>
 
@@ -232,6 +245,9 @@ import { useLangStore } from "@/stores/LangStore";
 import Level from "@/level";
 import LangOption from "./ui/LangOption.vue";
 import profile from "@/assets/May.jpg";
+import MyanmarFlag from "../styles/SvgIcon/MyanmarFlag.vue";
+import UkFlag from "../styles/SvgIcon/ukFlag.vue";
+import JapanFlag from "../styles/SvgIcon/japanFlag.vue";
 
 const { name, height } = useDisplay();
 const theme = useTheme();
