@@ -3,11 +3,12 @@
     id="Layer_2"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 497.44 263"
-    transform="scale(0.1 0.1)"
+    transform="scale(0.1 0.1) "
     preserveAspectRatio="xMidYMid meet"
   >
     <g id="Layer_1-2">
       <g>
+        <rect class="cls-3" x=".44" width="497" height="263" />
         <rect class="cls-1" x="206.94" width="84" height="263" />
         <polygon
           class="cls-1"
@@ -31,7 +32,7 @@
           y="-117"
           width="67"
           height="497"
-          transform="translate(117 380) rotate(-90) "
+          transform="translate(117 380) rotate(-90)"
         />
         <rect class="cls-2" x="227" width="42" height="263" />
         <rect
@@ -40,13 +41,13 @@
           y="-117"
           width="31"
           height="497"
-          transform="translate(117.44 380.44) rotate(-90) "
+          transform="translate(117.44 380.44) rotate(-90)"
         />
       </g>
     </g>
   </svg>
 </template>
-<style scoped>
+<style>
 .cls-1 {
   fill: #fff;
 }
