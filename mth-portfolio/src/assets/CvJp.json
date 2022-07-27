@@ -210,6 +210,13 @@
       "description": "Figmaを使用したワイヤーフレームとプロトタイプによる設計プロセス、HTML、CSS、JavaScriptを使用したWebサイトの作成",
       "imgSrc": "",
       "link": "https://www.udemy.com/certificate/UC-acc54eb7-4348-4da6-bda0-a62bf7bbd0fd/"
+    },
+    {
+      "icon": "mdi-certificate",
+      "name": "Vue-完全ガイド（ルーターと構成APIを含む） ",
+      "description": "Vueフレームワークを使用してウェブページをゼロから完了までの作成",
+      "imgSrc": "",
+      "link": "https://www.udemy.com/certificate/UC-9a7d4eff-b3f9-4ae9-a22d-0913cc13d346/"
     }
   ]
 }
