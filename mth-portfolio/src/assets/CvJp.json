@@ -43,17 +43,17 @@
   ],
   "languages": [
     {
-      "icon": "mdi-",
+      "icon": null,
       "name": "ミャンマー語",
       "value": 100
     },
     {
-      "icon": "mdi-",
+      "icon": null,
       "name": "英語",
       "value": 75
     },
     {
-      "icon": "mdi-ideogram-cjk",
+      "icon": null,
       "name": "日本語",
       "value": 75
     }

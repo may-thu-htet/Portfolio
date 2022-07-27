@@ -68,28 +68,27 @@
               <!-- Contact/Language/Skills -->
               <v-list-item v-else>
                 <v-icon
+                  v-if="item.icon"
                   :icon="item.icon ? item.icon : 'mdi'"
                   class="pr-3"
                 ></v-icon
-                >{{ item.name ? item.name : item.value }}
+                ><JapanFlag
+                  v-if="titleKey === 'languages' && item.name === '日本語'"
+                />
+                <UkFlag
+                  v-if="titleKey === 'languages' && item.name === '英語'"
+                />
+                <MyanmarFlag
+                  v-if="
+                    titleKey === 'languages' && item.name === 'ミャンマー語'
+                  "
+                />
+                {{ item.name ? item.name : item.value }}
                 {{ level[lang.code][item.value] }}
               </v-list-item>
 
               <!-- Progress bar for skills and languages -->
               <!--language Flags-->
-              <v-row class="pa-0 ma-0">
-                <myanmar-flag
-                  class="fixed-start"
-                  v-if="item.name === 'ミャンマー語'"
-                ></myanmar-flag
-              ></v-row>
-
-              <v-row class="pa-0 ma-0"
-                ><UkFlag v-if="item.name === '英語'"></UkFlag
-              ></v-row>
-              <v-row class="pa-0 ma-0"
-                ><japan-flag v-if="item.name === '日本語'"></japan-flag
-              ></v-row>
               <v-progress-linear
                 v-if="titleKey === 'skills' || titleKey === 'languages'"
                 height="8"

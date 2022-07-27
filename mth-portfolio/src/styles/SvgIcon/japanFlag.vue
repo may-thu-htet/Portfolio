@@ -3,8 +3,10 @@
     id="Layer_2"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 388.8 217.44"
-    transform="scale(0.1 0.1)"
+    transform="scale(1 1)"
     preserveAspectRatio="xMidYMid meet"
+    style="width: 30px"
+    class="pr-2 pt-1"
   >
     <defs></defs>
     <g id="Layer_1-2">
