@@ -12,7 +12,7 @@
         v-for="(lang, key) in langs"
         style="opacity: 1"
         size="small"
-        class="text-white px-0 mx-0"
+        class="px-0 mx-0"
         :key="key"
         rounded="0"
       >

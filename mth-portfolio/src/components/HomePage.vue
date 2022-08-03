@@ -4,7 +4,7 @@
     <v-col cols="12" sm="5" md="4" lg="3" xxl="2">
       <v-card
         flat
-        color="blue-grey-darken-4"
+        color="#AF7AB3"
         rounded="0"
         :min-height="height"
         height="100%"
@@ -73,14 +73,22 @@
                   class="pr-3"
                 ></v-icon
                 ><JapanFlag
-                  v-if="titleKey === 'languages' && item.name === '日本語'"
+                  v-if="
+                    (titleKey === 'languages' && item.name === '日本語') ||
+                    item.name === 'Japanese'
+                  "
                 />
                 <UkFlag
-                  v-if="titleKey === 'languages' && item.name === '英語'"
+                  v-if="
+                    (titleKey === 'languages' && item.name === '英語') ||
+                    item.name === 'English'
+                  "
                 />
                 <MyanmarFlag
                   v-if="
-                    titleKey === 'languages' && item.name === 'ミャンマー語'
+                    (titleKey === 'languages' &&
+                      item.name === 'ミャンマー語') ||
+                    item.name === 'Burmese'
                   "
                 />
                 {{ item.name ? item.name : item.value }}
@@ -93,7 +101,7 @@
                 v-if="titleKey === 'skills' || titleKey === 'languages'"
                 height="8"
                 rounded
-                color="blue"
+                color="#AFB4FF"
                 :model-value="item.value"
               >
               </v-progress-linear>

@@ -171,7 +171,10 @@
   ],
   "experiences": {
     "descriptions": {
-      "value": "トヨタ工機 株式会社"
+      "icon": "mdi-domain",
+      "name": "トヨタ工機 株式会社",
+      "description": "原図、部品図（部品の展開も含む）、部品欄製作、構造部材の強度計算、Solidworksを使用して解析を行う、取扱説明書の作成（日本語、英語）",
+      "link": "https://www.toyota-kohki.co.jp/"
     }
   },
 
