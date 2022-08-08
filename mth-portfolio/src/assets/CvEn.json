@@ -85,18 +85,18 @@
       "value": 75
     },
     {
-      "icon": "",
+      "icon": null,
       "svg": "Procreate Icon.svg",
       "name": "Procreate",
       "value": 75
     },
     {
-      "icon": "mdi-alpha-f-circle-outline",
+      "icon": null,
       "name": "Figma",
       "value": 25
     },
     {
-      "icon": "mdi-alpha-f-circle-outline",
+      "icon": null,
       "name": "Illustrator",
       "value": 25
     },

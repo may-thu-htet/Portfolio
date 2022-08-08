@@ -4,7 +4,7 @@
     <v-col cols="12" sm="5" md="4" lg="3" xxl="2">
       <v-card
         flat
-        color="#C4D7E0"
+        color="#75748f"
         rounded="0"
         :min-height="height"
         height="100%"
@@ -71,24 +71,33 @@
                   v-if="item.icon"
                   :icon="item.icon ? item.icon : 'mdi'"
                   class="pr-3"
-                ></v-icon
-                ><JapanFlag
+                ></v-icon>
+                <procreateIcon
+                  v-if="item.icon === null && item.name === 'Procreate'"
+                ></procreateIcon>
+                <figmaIcon
+                  v-if="item.icon === null && item.name === 'Figma'"
+                ></figmaIcon>
+                <illustratorIcon
+                  v-if="item.icon === null && item.name === 'Illustrator'"
+                >
+                </illustratorIcon>
+                <JapanFlag
                   v-if="
-                    (titleKey === 'languages' && item.name === '日本語') ||
-                    item.name === 'Japanese'
+                    titleKey === 'languages' &&
+                    (item.name === '日本語' || item.name === 'Japanese')
                   "
                 />
                 <UkFlag
                   v-if="
-                    (titleKey === 'languages' && item.name === '英語') ||
-                    item.name === 'English'
+                    titleKey === 'languages' &&
+                    (item.name === '英語' || item.name === 'English')
                   "
                 />
                 <MyanmarFlag
                   v-if="
-                    (titleKey === 'languages' &&
-                      item.name === 'ミャンマー語') ||
-                    item.name === 'Burmese'
+                    titleKey === 'languages' &&
+                    (item.name === 'ミャンマー語' || item.name === 'Burmese')
                   "
                 />
                 {{ item.name ? item.name : item.value }}
@@ -135,7 +144,7 @@
     <!-- Portfolio Right Side Info Starts Here -->
     <v-col cols="12" sm="7" md="8" lg="9" xxl="10" class="pa-3">
       <!-- Motivation -->
-      <v-card color="grey-lighten-3" flat>
+      <v-card color="#e5e4f7" flat>
         <v-card-title class="justify-center text-uppercase">{{
           cv[lang.code].personalInfo.name
         }}</v-card-title>
@@ -255,7 +264,9 @@ import profile from "@/assets/May.jpg";
 import MyanmarFlag from "../styles/SvgIcon/MyanmarFlag.vue";
 import UkFlag from "../styles/SvgIcon/UkFlag.vue";
 import JapanFlag from "../styles/SvgIcon/japanFlag.vue";
-
+import procreateIcon from "../styles/SvgIcon/procreateIcon.vue";
+import figmaIcon from "../styles/SvgIcon/figmaIcon.vue";
+import illustratorIcon from "../styles/SvgIcon/illustratorIcon.vue";
 const { name, height } = useDisplay();
 const theme = useTheme();
 const cv = useCVStore();
