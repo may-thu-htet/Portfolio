@@ -4,7 +4,7 @@
     <v-col cols="12" sm="5" md="4" lg="3" xxl="2">
       <v-card
         flat
-        color="#AF7AB3"
+        color="#C4D7E0"
         rounded="0"
         :min-height="height"
         height="100%"
@@ -101,7 +101,7 @@
                 v-if="titleKey === 'skills' || titleKey === 'languages'"
                 height="8"
                 rounded
-                color="#AFB4FF"
+                color="blue"
                 :model-value="item.value"
               >
               </v-progress-linear>
