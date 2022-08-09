@@ -3,7 +3,7 @@
     <v-btn-toggle
       variant="plain"
       density="compact"
-      color="light-blue-accent-1"
+      color="#4527A0"
       v-model="langOptions"
       mandatory
       @update:model-value="lang.code = langCode"

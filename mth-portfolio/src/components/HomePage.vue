@@ -4,7 +4,7 @@
     <v-col cols="12" sm="5" md="4" lg="3" xxl="2">
       <v-card
         flat
-        color="#75748f"
+        color="#C5CAE9"
         rounded="0"
         :min-height="height"
         height="100%"
@@ -267,6 +267,7 @@ import JapanFlag from "../styles/SvgIcon/japanFlag.vue";
 import procreateIcon from "../styles/SvgIcon/procreateIcon.vue";
 import figmaIcon from "../styles/SvgIcon/figmaIcon.vue";
 import illustratorIcon from "../styles/SvgIcon/illustratorIcon.vue";
+
 const { name, height } = useDisplay();
 const theme = useTheme();
 const cv = useCVStore();
