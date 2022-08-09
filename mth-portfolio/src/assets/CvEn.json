@@ -43,17 +43,17 @@
   ],
   "languages": [
     {
-      "icon": "mdi-",
+      "icon": null,
       "name": "Burmese",
       "value": 100
     },
     {
-      "icon": "mdi-",
+      "icon": null,
       "name": "English",
       "value": 75
     },
     {
-      "icon": "mdi-ideogram-cjk",
+      "icon": null,
       "name": "Japanese",
       "value": 75
     }
@@ -85,18 +85,18 @@
       "value": 75
     },
     {
-      "icon": "",
+      "icon": null,
       "svg": "Procreate Icon.svg",
       "name": "Procreate",
       "value": 75
     },
     {
-      "icon": "mdi-alpha-f-circle-outline",
+      "icon": null,
       "name": "Figma",
       "value": 25
     },
     {
-      "icon": "mdi-alpha-f-circle-outline",
+      "icon": null,
       "name": "Illustrator",
       "value": 25
     },
@@ -152,40 +152,33 @@
       "icon": "mdi-language-css3",
       "color": "orange",
       "name": "CSS Project",
-      "description": "Coming soon ...",
-      "link": "https://www.google.com"
+      "description": "CSS project",
+      "link": "/candy"
     },
     {
       "icon": "mdi-vuejs",
       "color": "green",
       "name": "Vue App",
-      "description": "Coming Soon ...",
-      "link": "https://www.figma.com"
+      "description": "Web application created using Vue",
+      "link": "/inprogress"
     },
-    {
-      "icon": "",
-      "svg": "procreate_icon.svg",
-      "color": "green",
-      "name": "Procreate App",
-      "description": "Coming soon ...",
-      "link": "https://www.procreate.com"
-    },
-    {
-      "icon": "figma",
-      "color": "green",
-      "name": "Figma App",
-      "description": "Coming soon ...",
-      "link": "https://www.figma.com"
-    },
+
     {
       "icon": "fa:fas fa-image",
       "color": "teal-darken-1",
       "name": "Gallery",
-      "description": "Coming soon ...",
-      "link": "https://www.figma.com"
+      "description": "Creative project showcase",
+      "link": "https://maythuhtet2892.myportfolio.com/"
     }
   ],
-
+  "experiences": {
+    "descriptions": {
+      "icon": "mdi-domain",
+      "name": "Toyota Kohki CO.,Ltd",
+      "description": "GA drawings, part drawings (including parts development), part column, strength calculation of structural members, analysis using Solidworks, creation of instruction manuals (Japanese, English)",
+      "link": "https://www.toyota-kohki.co.jp/"
+    }
+  },
   "certificates": [
     {
       "icon": "mdi-certificate",
@@ -221,6 +214,13 @@
       "description": "Design process by Wireframes and prototypes using Figma, creating web site using HTML, CSS, Javascript",
       "imgSrc": "",
       "link": "https://www.udemy.com/certificate/UC-acc54eb7-4348-4da6-bda0-a62bf7bbd0fd/"
+    },
+    {
+      "icon": "mdi-certificate",
+      "name": "Vue-Complete Guide（Incl. Router and Composition API） ",
+      "description": "Creating web pages from scratch using the Vue framework",
+      "imgSrc": "",
+      "link": "https://www.udemy.com/certificate/UC-9a7d4eff-b3f9-4ae9-a22d-0913cc13d346/"
     }
   ]
 }
